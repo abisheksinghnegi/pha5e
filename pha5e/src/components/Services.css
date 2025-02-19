@@ -1,0 +1,48 @@
+#maincon{
+  display: flex;
+  height: 100vh;
+  animation:  cap2 1s ease;
+  animation-timeline: view();
+}
+
+#div1{
+  height: 600px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#div2{
+  height: 600px;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: DrukWide-Bold-Web, Helvetica, Arial, sans-serif;
+}
+
+#text{
+  width: 400px;
+  font-family: math;
+  font-weight: bolder;
+}
+
+.text2{
+  animation: stretchText 2s ease forwards;
+}
+
+@keyframes stretchText {
+  0% {
+      transform: scaleX(1.9) scaleY(1.3); 
+  }
+  100% {
+      transform: scaleX(1.9) scaleY(1.3);  
+  }
+}
+
+#divt{
+  margin-left: 300px;
+  margin-top: 300px;
+}
+
